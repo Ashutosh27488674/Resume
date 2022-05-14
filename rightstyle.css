@@ -1,0 +1,41 @@
+.right-main-content{
+    padding: 2rem 3rem 2rem 3rem;
+
+}
+.right-title{
+    text-transform: uppercase;
+    font: 1.2rem;
+    font-weight: 700px;
+    padding: 0.5rem;
+    letter-spacing: 1px;
+}
+.about-me{
+    padding-left: 1.2rem;
+}
+.std{
+    list-style: circle;
+    display: flex;
+    gap: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+li{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.link{
+    text-decoration: none;
+    border: 1px solid black;
+    background-color: grey;
+    color: white;
+    margin: auto;
+    border-radius: 6px;
+    padding: 10px;
+}
+.links{
+    margin-top: 50px;
+}
+.link:hover{
+    background-color: aqua;
+    color: black;
+}

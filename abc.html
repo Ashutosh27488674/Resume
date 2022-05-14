@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <input type="text"  name="9o" placeholder="Principal" id="principle">
+        <input type="text"  name=""  placeholder="Rate" id="rate">
+        <input type="text" name="" placeholder="Time" id="time">
+        <button type="submit" id="calculate">Calculate</button>
+        
+    </form>
+    <script>
+
+        
+        let p=document.getElementById("principle");
+        console.log(p.value);
+        p.addEventListener("change",(e)=>{
+            console.log(e.target.value)
+        })
+        let btn=document.getElementById("calculate");
+        btn.addEventListener('click',()=>{
+            let p=document.getElementById("principle").value;
+            let r=document.getElementById("rate").value;
+            let t=document.getElementById("time").value;
+            let ans=(parseInt(p)*parseInt(r)*parseInt(t))/100;
+            alert(ans)
+        });
+        // const handleFormSubmit = (e) => {
+        //     e.preventDefault();
+        //     console.log(e)
+        // }
+
+        
+    </script>
+</body>
+</html>
